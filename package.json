@@ -1,0 +1,16 @@
+{
+  "name": "move-path",
+  "version": "0.1.0",
+  "description": "Move or rename a file without repeating its directory path or file extension",
+  "bin": {
+    "mvp": "mvp.js"
+  },
+  "type": "module",
+  "keywords": [
+    "move",
+    "rename",
+    "cli",
+    "filesystem"
+  ],
+  "license": "MIT"
+}
