@@ -9,9 +9,7 @@ its directory path or file extension.
 mvp foo/bar/notes.txt readme.md
 ```
 
-```
-foo/bar/notes.txt -> foo/bar/readme.md
-```
+`foo/bar/notes.txt` becomes `foo/bar/readme.md`
 
 ## Use Existing File Extension
 
@@ -19,9 +17,7 @@ foo/bar/notes.txt -> foo/bar/readme.md
 mvp foo/bar/notes.txt readme
 ```
 
-```
-foo/bar/notes.txt -> foo/bar/readme.txt
-```
+`foo/bar/notes.txt` becomes `foo/bar/readme.txt`
 
 ## Move a File
 
@@ -29,9 +25,7 @@ foo/bar/notes.txt -> foo/bar/readme.txt
 mvp foo/bar/notes.txt ../
 ```
 
-```
-foo/bar/notes.txt -> foo/readme.txt
-```
+`foo/bar/notes.txt` becomes `foo/readme.txt`
 
 ## Install Tool
 
