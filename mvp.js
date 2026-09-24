@@ -49,7 +49,7 @@ async function buildTarget(source, target) {
 
 async function main() {
   if (process.argv.length !== 4) {
-    throw new Error("Usage: mvp <source> <new name (and relative path)>");
+    throw new Error("Usage: mvp <source> <new name (optional file ext and relative path)>");
   }
 
   let [source, target] = process.argv.slice(2);
